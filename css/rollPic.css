@@ -1,0 +1,96 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body { background:#FFF; color:#333; font:12px/1.5em Helvetica, Arial, sans-serif; }
+a { color:#2B93D2; text-decoration:none; }
+a:hover { color:#E31E1C; text-decoration:underline; }
+
+/*************大圣插件模块begin*************/
+/*主容器*/
+.v_show{
+	width:594px;
+	margin:50px,0,0,50px;
+}
+/*标题栏*/
+.v_caption{
+	width:594px;
+	height:35px;
+	background:url(../images/btn_cartoon.gif) no-repeat 0 0;
+}
+/*按钮*/
+.change_btn{
+	float:left;
+	margin:7px 0 0 10px;
+}
+.change_btn span { 
+	display:block; 
+	float:left; 
+	width:30px; 
+	height:23px; 
+	overflow:hidden; 
+	background:url(../images/btn_cartoon.gif) no-repeat; 
+	cursor:pointer; 
+}
+.change_btn .prev { 
+	background-position:0 -400px;  
+}
+.change_btn .next {
+	background-position:-30px -400px; 
+}
+/*页码提示*/
+.tool_tip { 
+	display:inline; 
+	float:left; 
+	margin:14px 0 0 10px; 
+}
+.tool_tip span { 
+	display:inline; 
+	float:left; 
+	width:7px; 
+	height:7px; 
+	overflow:hidden; 
+	margin:0 2px; 
+	background:url(../images/btn_cartoon.gif) no-repeat 0 -320px; 
+}
+.tool_tip .current { 
+	background-position:0 -220px; 
+}
+/*内容框架*/
+.v_content{
+	width:592px; 
+	height:145px; 
+	overflow:hidden;
+	position:relative;
+	border-right:1px solid #E7E7E7; 
+	border-bottom:1px solid #E7E7E7; 
+	border-left:1px solid #E7E7E7;
+}
+/*图片列表*/
+.v_list{
+	width:9999px;
+	position:relative;
+	left:0;
+	top:0;
+}
+.v_list ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.v_list ul li{
+	width:136px; 
+	height:125px;
+	text-align:center;
+	overflow:hidden;
+	padding:6px;
+	margin-top:5px;
+	float:left;
+}
+.v_list ul li a{
+	line-height:25px;
+}
+.v_list ul li img{
+	width:128px; 
+	height:96px; 
+	border:0;
+}
+/*************大圣插件模块end*************/
